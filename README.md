@@ -37,6 +37,22 @@ Note: It will take 1-2 (Maybe 3) hours to train and run on Google Colab
 
 You need Python to use Python 3.8. I would recommend using a virtual environment.
 
+0. Construct virtual environment for Python 3.8
+   Prerequisite package: virtualenv, python3.8-venv
+```shell script
+# Install packages to use virt-python
+apt-get install virtualenv python3.8-venv
+
+# Cretae a virtual environment for Python 3.8
+python3 -m venv my_env/
+
+# Set the version of virtual python
+virtualenv env/ --python=python3.8
+
+# Activate virt-python
+source my_env/bin/activate
+```
+
 1. Install the requirements
    from [`requirements.txt`](https://github.com/gabeorlanski/stackoverflow-encourages-cheating/blob/main/requirements.txt)
 
