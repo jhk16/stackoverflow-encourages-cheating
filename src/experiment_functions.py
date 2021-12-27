@@ -56,7 +56,7 @@ def trainingArgs(
         label_names = ['labels']
     config = ml_collections.ConfigDict()
     config.output_dir = logging_dir
-    config.evaluation_strategy = "epoch"
+    config.evaluation_strategy = "steps"
     config.per_device_train_batch_size = batch_size
     config.per_device_eval_batch_size = batch_size
     config.logging_dir = logging_dir
