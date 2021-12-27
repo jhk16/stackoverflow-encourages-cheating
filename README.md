@@ -48,7 +48,7 @@ apt-get install virtualenv python3.8-venv
 python3 -m venv my_env/
 
 # Set the version of virtual python
-virtualenv env/ --python=python3.8
+virtualenv my_env/ --python=python3.8
 
 # Activate virt-python
 source my_env/bin/activate
